@@ -7,27 +7,16 @@ import './globals.css'
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" });
+const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-Ylsbyk3k2x1PAIRv0E6MAcPTIFJrWB.png'
 
 export const metadata: Metadata = {
   title: 'OralNest Dental Clinic - A Safe Nest For Every Smile',
   description: 'Experience the perfect blend of advanced technology, gentle care, and beautiful results at OralNest Dental Clinic.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: logoUrl,
+    shortcut: logoUrl,
+    apple: logoUrl,
   },
 }
 
