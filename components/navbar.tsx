@@ -32,7 +32,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-Ylsbyk3k2x1PAIRv0E6MAcPTIFJrWB.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-oralnest-co009vF16KpYOXKqPJiAcIwUDZr7kc.png"
               alt="OralNest Dental Clinic"
               width={50}
               height={50}

@@ -8,3 +8,10 @@ node_modules
 .next/
 .env*.local
 .DS_Store
+
+#AI Generated Files
+.agent/
+.codex/
+.github/
+.claude/
+.gemini/

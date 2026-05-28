@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 const doctors = [
   {
     name: "Dr. Ashutosh Dighe",
-    qualifications: "BDS, MDS, PhD Scholar",
+    qualifications: "BDS, MDS, Ph.D (Scholar)",
     specialty: "Consultant Oral Physician & Maxillofacial Radiologist",
     image: "/images/doctor-ashutosh.jpg",
     description: "With 7+ years of extensive experience in oral surgery and implantology, Dr. Ashutosh leads our surgical team with precision and care.",

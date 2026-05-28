@@ -11,14 +11,14 @@ const doctors = [
     name: "Dr. Ashutosh Dighe",
     qualifications: "BDS, MDS, PhD Scholar",
     specialty: "Oral & Maxillofacial Surgery",
-    description: "With over 15 years of expertise in dental surgery and implantology, Dr. Ashutosh Dighe leads our surgical department. His advanced training in maxillofacial procedures and ongoing PhD research ensures patients receive cutting-edge treatment backed by the latest scientific evidence.",
+    description: "With over 7 years of expertise in dental surgery and implantology, Dr. Ashutosh Dighe leads our surgical department. His advanced training in maxillofacial procedures and ongoing PhD research ensures patients receive cutting-edge treatment backed by the latest scientific evidence. With advanced expertise in Oral Medicine and Maxillofacial Radiology, Dr. Dighe is known for his ability to discern and manage complex oral conditions with exceptional clarity. His clinical focus encompasses oral mucosal diseases, temporomandibular joint disorders, orofacial pain, and advanced radiographic evaluation—ensuring that every treatment is guided by meticulous diagnosis and long-term predictability. ",
     image: "/images/doctor-ashutosh.jpg",
   },
   {
     name: "Dr. Sayali Jagtap Dighe",
     qualifications: "BDS",
     specialty: "Cosmetic Dentist",
-    description: "Dr. Sayali Jagtap Dighe is passionate about preventive care and cosmetic dentistry. Her gentle approach makes dental visits stress-free for children and adults alike, focusing on education and early intervention to maintain lifelong oral health while enhancing natural beauty.",
+    description: "Dr. Sayali Jagtap Dighe brings a refined blend of clinical understanding and patient-centric insight to OralNest Dental Clinic, Wakad, where she is known for her thoughtful approach to patient care and treatment journey design. With a strong foundation in dentistry, she possesses an in-depth understanding of oral health, enabling her to guide patients with clarity, precision, and reassurance from the very first interaction. Her ability to simplify complex dental concerns into clear, well-structured guidance allows patients to feel informed, comfortable, and confident in their decisions.Her expertise lies in patient counselling,comprehensive case coordination, and delivering a seamless clinical experience defined by attention to detail and understated elegance. ",
     image: "/images/doctor-sayali.jpg",
   },
 ]

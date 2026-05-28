@@ -1,7 +1,6 @@
 
 "use client";
 import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 
 const services = [
@@ -158,13 +157,6 @@ export function Services() {
               From routine checkups to advanced smile makeovers — we&apos;ve got
               you covered.
             </p>
-            <Button
-              variant="outline"
-              className="rounded-full border-primary text-primary hover:bg-primary hover:text-white"
-            >
-              Explore All Services
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
           </motion.div>
 
           {/* Services Grid */}

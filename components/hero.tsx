@@ -139,7 +139,7 @@ export function Hero() {
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Trusted by 2,500+ Happy Patients
+                  Trusted by 200+ Happy Patients
                 </p>
               </div>
             </motion.div>

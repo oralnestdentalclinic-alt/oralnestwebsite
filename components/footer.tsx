@@ -31,7 +31,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-Ylsbyk3k2x1PAIRv0E6MAcPTIFJrWB.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-oralnest-co009vF16KpYOXKqPJiAcIwUDZr7kc.png"
                 alt="OralNest Dental Clinic"
                 width={40}
                 height={40}

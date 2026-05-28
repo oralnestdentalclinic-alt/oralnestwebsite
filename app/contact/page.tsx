@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="py-16 lg:py-24 bg-secondary/30">
         <div className="container mx-auto px-4 lg:px-8">
@@ -40,7 +40,7 @@ export default function ContactPage() {
               {/* Map Placeholder */}
               <div className="relative rounded-2xl overflow-hidden border border-border h-[300px] bg-secondary/30">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.8253045851576!2d73.80126!3d18.5912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9b6c8b6b6b7%3A0x8b6b6b6b6b6b6b6b!2sKaspate%20Vasti%2C%20Wakad%2C%20Pune!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps?q=OralNest%20Dental%20Clinic%20Wakad&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -79,7 +79,10 @@ export default function ContactPage() {
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="font-semibold text-foreground mb-1">Hours</h3>
-                  <p className="text-muted-foreground">Mon-Sat: 9AM - 8PM</p>
+                  <div className="text-muted-foreground text-sm space-y-1">
+                    <p>Morning: 11:00 AM – 2:00 PM</p>
+                    <p>Evening: 6:00 PM – 9:00 PM</p>
+                  </div>
                 </div>
               </div>
 

@@ -1,36 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronRight, ArrowRight } from "lucide-react"
+import { ChevronRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 
 const treatmentCategories = [
-  {
-    name: "Management",
-    treatments: [
-      { 
-        title: "Oral Thrush", 
-        description: "Treatment for fungal infections in the mouth with antifungal medications and oral care guidance.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/oral_thursh-g0URtr7HNaamVN8UCOPi1rC1HWkEOt.jpeg"
-      },
-      { 
-        title: "Leukoplakia", 
-        description: "Diagnosis and treatment of white patches in the mouth with careful monitoring and intervention.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leukoplakia-bE3OTgGnvbdiDEHZO43sCBXC5wMUBS.jpeg"
-      },
-      { 
-        title: "TMJ Pain", 
-        description: "Comprehensive treatment for temporomandibular joint disorders including therapy and splints.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tmj_pain-Ll8ckGQP8qe94FvulukGvWRL6IZHge.jpeg"
-      },
-      { 
-        title: "Bruxism", 
-        description: "Treatment for teeth grinding including custom night guards and stress management techniques.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bruxism-znCKRCQ8PlFHjvw2Hlzr07IH4DRMT2.jpeg"
-      },
-    ],
-  },
   {
     name: "Therapy",
     treatments: [
@@ -123,6 +98,31 @@ const treatmentCategories = [
         title: "Orthodontic Assessment", 
         description: "Comprehensive evaluation for personalized treatment planning.",
         image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/orthodontic%20assessment-DzHJ0kWh1xBtr5kBap4H6HWzExk3Zk.jpeg"
+      },
+    ],
+  },
+  {
+    name: "Management",
+    treatments: [
+      { 
+        title: "Oral Thrush", 
+        description: "Treatment for fungal infections in the mouth with antifungal medications and oral care guidance.",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/oral_thursh-g0URtr7HNaamVN8UCOPi1rC1HWkEOt.jpeg"
+      },
+      { 
+        title: "Leukoplakia", 
+        description: "Diagnosis and treatment of white patches in the mouth with careful monitoring and intervention.",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leukoplakia-bE3OTgGnvbdiDEHZO43sCBXC5wMUBS.jpeg"
+      },
+      { 
+        title: "TMJ Pain", 
+        description: "Comprehensive treatment for temporomandibular joint disorders including therapy and splints.",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tmj_pain-Ll8ckGQP8qe94FvulukGvWRL6IZHge.jpeg"
+      },
+      { 
+        title: "Bruxism", 
+        description: "Treatment for teeth grinding including custom night guards and stress management techniques.",
+        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bruxism-znCKRCQ8PlFHjvw2Hlzr07IH4DRMT2.jpeg"
       },
     ],
   },
@@ -219,13 +219,9 @@ export function Treatments() {
                         <h4 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                           {treatment.title}
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
+                        <p className="text-sm text-muted-foreground line-clamp-2">
                           {treatment.description}
                         </p>
-                        <button className="flex items-center gap-2 text-sm font-medium text-primary hover:gap-3 transition-all">
-                          Learn More
-                          <ArrowRight className="w-4 h-4" />
-                        </button>
                       </div>
                     </motion.div>
                   ))}

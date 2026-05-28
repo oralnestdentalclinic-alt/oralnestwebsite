@@ -34,7 +34,7 @@ export function ServicesDashboard() {
     <section id="services" className="py-16 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Header */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -48,7 +48,7 @@ export function ServicesDashboard() {
             Complete <span className="text-primary">Dental Care</span> Under One Roof
           </h2>
           <p className="text-muted-foreground">
-            From routine checkups to advanced procedures — we offer comprehensive 
+            From routine checkups to advanced procedures — we offer comprehensive
             dental treatments to meet all your oral health needs.
           </p>
         </motion.div>
@@ -73,7 +73,7 @@ export function ServicesDashboard() {
                   className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              
+
               {/* Service Info */}
               <div className="p-5">
                 <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
@@ -83,8 +83,8 @@ export function ServicesDashboard() {
                   {service.description}
                 </p>
                 <button className="flex items-center gap-2 text-sm font-medium text-primary hover:gap-3 transition-all">
-                  Learn More
-                  <ArrowRight className="w-4 h-4" />
+
+
                 </button>
               </div>
             </motion.div>
@@ -92,7 +92,7 @@ export function ServicesDashboard() {
         </div>
 
         {/* View All Button */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

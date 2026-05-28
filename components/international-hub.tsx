@@ -423,7 +423,7 @@ export function InternationalHub() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
                 <img
-                  src="/images/clinic-interior.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/international-pagephoto-T879fvbG1BRRB2X7U4fMNAlBtrFNex.png"
                   alt="OralNest Dental Clinic Interior - Modern and Luxurious Reception Area"
                   className="w-full h-full object-cover"
                 />
