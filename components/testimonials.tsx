@@ -5,6 +5,16 @@ import { Star } from "lucide-react"
 
 const testimonials = [
   {
+    name: "Tukaram Lipane",
+    rating: 5,
+    review: "I had an excellent experience at OralNest Dental Clinic for Oral Submucous Fibrosis (OSMF) treatment. Dr. Ashutosh Dighe provided exceptional care, and the results have been truly remarkable. After undergoing treatment, there has been a drastic improvement in mouth opening and overall oral comfort. Highly recommended for OSMF treatment and mouth opening therapy."
+  },
+  {
+    name: "Mrunal Asawale",
+    rating: 5,
+    review: "मी बराच भीत होतो dentist कडे जाण्यास, पण OralNest Dental Clinic ने सर्वकाही बदलून दिले. Dr. Ashutosh Dighe यांनी खूप patiently सगळं explain केलं आणि treatment खूपच painless होते. Clinic एकदम neat, hygienic आणि premium feel देणारं आहे. इतका delay का केला असे वाटतं. Nक्की recommend करेन!"
+  },
+  {
     name: "Neel K",
     rating: 5,
     review: "I'm 16 and visited OralNest Dental Clinic. The staff was highly attentive and caring. Equipment was sterilised, booking was easy, and the waiting time was short. Overall, a very gentle and comfortable experience."
@@ -38,16 +48,6 @@ const testimonials = [
     name: "DIGHE",
     rating: 5,
     review: "I had a great experience at OralNest Dental Clinic in Kaspate Vasti. The care was of a very high standard, and the staff were friendly and professional throughout the treatment."
-  },
-  {
-    name: "Datta Sayakli",
-    rating: 5,
-    review: "Excellent treatment with great customer service. The clinic had good facilities, short waiting time, and immediate availability. Staff provided gentle care and proper supervision."
-  },
-  {
-    name: "Sahil Kadam",
-    rating: 5,
-    review: "OralNest Dental Clinic is truly a gem. The clinic is easily accessible, well-organised, and reasonably priced. Staff were attentive, and the overall experience was smooth and comfortable."
   }
 ]
 
@@ -97,7 +97,7 @@ export function Testimonials() {
               </div>
 
               {/* Review Text */}
-              <p className="text-muted-foreground mb-6 leading-relaxed text-sm line-clamp-4">
+              <p className="text-muted-foreground mb-6 leading-relaxed text-sm whitespace-pre-wrap">
                 "{testimonial.review}"
               </p>
 

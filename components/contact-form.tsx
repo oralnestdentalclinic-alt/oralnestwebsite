@@ -50,14 +50,15 @@ export function ContactForm({
 
     // Construct the payload for Web3Forms
     const payload = {
-      access_key: "a1fe08ff-a008-4143-9ad7-adcee517ecb0", // Replace with your actual key
+      access_key: "a1fe08ff-a008-4143-9ad7-adcee517ecb0",
       name: formData.name,
       email: formData.email,
       phone: formData.phone,
       subject: formData.subject || `New Appointment: ${formData.problemType}`,
-      problem_type: formData.problemType, // This ensures the specific issue is sent to your email
+      problem_type: formData.problemType,
       message: formData.message,
       from_name: "OralNest Dental Clinic",
+      to_email: "oralnestdentalclinic@gmail.com",
     }
 
     try {

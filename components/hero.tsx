@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Star, Play } from "lucide-react"
+import { ArrowRight, Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -103,46 +103,7 @@ export function Hero() {
               </Button>
             </motion.div>
 
-            {/* Rating */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="flex items-center gap-4"
-            >
-              <div className="flex -space-x-2">
-                {[1, 2, 3].map((i) => (
-                  <div
-                    key={i}
-                    className="w-10 h-10 rounded-full border-2 border-white bg-gradient-to-br from-teal-100 to-teal-200 overflow-hidden"
-                  >
-                    <Image
-                      src={`https://i.pravatar.cc/40?img=${i + 10}`}
-                      alt={`Patient ${i}`}
-                      width={40}
-                      height={40}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
-              <div>
-                <div className="flex items-center gap-1">
-                  <span className="font-bold text-foreground">4.9/5</span>
-                  <div className="flex">
-                    {[1, 2, 3, 4, 5].map((i) => (
-                      <Star
-                        key={i}
-                        className="w-4 h-4 fill-amber-400 text-amber-400"
-                      />
-                    ))}
-                  </div>
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Trusted by 200+ Happy Patients
-                </p>
-              </div>
-            </motion.div>
+
           </div>
 
           {/* Right Content - Animated Tooth Image */}
@@ -242,12 +203,12 @@ export function Hero() {
       </div>
 
       {/* Video Modal */}
-      <VideoModal 
-        isOpen={isVideoOpen}
-        onClose={() => setIsVideoOpen(false)}
-        videoUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VID-20260501-WA0001-jqjlFLLbDqPOCfhilJhD1rpygmxgEi.mp4"
-        title="OralNest - Our Story"
-      />
+      <VideoModal
+  isOpen={isVideoOpen}
+  onClose={() => setIsVideoOpen(false)}
+  videoUrl="/videos/oral-nest-video.mp4"
+  title="OralNest - Our Story"
+/>
     </section>
   )
 }

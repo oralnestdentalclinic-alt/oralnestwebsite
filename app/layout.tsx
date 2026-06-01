@@ -9,13 +9,26 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" });
 
 export const metadata: Metadata = {
-  title: 'OralNest Dental Clinic - A Safe Nest For Every Smile',
-  description: 'Experience the perfect blend of advanced technology, gentle care, and beautiful results at OralNest Dental Clinic.',
+  title: 'OralNest Dental Clinic | Best Dental Clinic in Wakad',
+  description: 'Best Dentist in Wakad, Dental Clinic near Hinjawadi. Expert Root Canal Treatment, Cosmetic Dentistry & Dental Implants in Pimpri-Chinchwad.',
+  keywords: ['Best Dentist in Wakad', 'Dental Clinic near Hinjawadi', 'Dentist near Pimpri-Chinchwad', 'Cosmetic Dentistry in Wakad', 'Root Canal Treatment Wakad'],
   generator: 'v0.app',
   icons: {
-    icon: '/icon.png',
-    shortcut: '/icon.png',
-    apple: '/icon.png',
+    icon: [
+      {
+        url: '/icon-light-32x32.png',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/icon-dark-32x32.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+      {
+        url: '/icon.svg',
+        type: 'image/svg+xml',
+      },
+    ],
+    apple: '/apple-icon.png',
   },
 }
 

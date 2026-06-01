@@ -7,17 +7,17 @@ import { motion } from "framer-motion"
 const doctors = [
   {
     name: "Dr. Ashutosh Dighe",
-    qualifications: "BDS, MDS, Ph.D (Scholar)",
-    specialty: "Consultant Oral Physician & Maxillofacial Radiologist",
+    qualifications: "BDS, MDS, Ph.D (Scholar) – Oral Medicine & Maxillofacial Radiology",
+    specialty: "",
     image: "/images/doctor-ashutosh.jpg",
-    description: "With 7+ years of extensive experience in oral surgery and implantology, Dr. Ashutosh leads our surgical team with precision and care.",
+    description: "With 7+ years of clinical experience, Dr. Ashutosh specializes in comprehensive oral diagnosis, treatment planning, and advanced radiological evaluation. As the lead Oral Physician at OralNest Dental Clinic, he coordinates multidisciplinary dental care, ensuring every patient receives the most appropriate specialist-led treatment with precision, transparency, and personalized attention.",
   },
   {
     name: "Dr. Sayali Jagtap Dighe",
     qualifications: "BDS",
-    specialty: "Cosmetic Dentist",
+    specialty: "",
     image: "/images/doctor-sayali.jpg",
-    description: "Dr. Sayali enhances smiles with precision and care, specializing in cosmetic dentistry to boost both confidence and aesthetics.",
+    description: "Dr. Sayali Jagtap Dighe brings a refined blend of clinical understanding and patient-centric insight to OralNest Dental Clinic, Wakad, where she is known for her thoughtful approach to patient care and treatment journey design. With a strong foundation in dentistry, she possesses an in-depth understanding of oral health, enabling her to guide patients with clarity, precision, and reassurance from the very first interaction. ",
   },
 ]
 
@@ -107,7 +107,7 @@ export function Doctors() {
                 <p className="text-muted-foreground text-sm mb-4">
                   {doctor.specialty}
                 </p>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-muted-foreground text-sm mb-4 whitespace-pre-line leading-relaxed">
                   {doctor.description}
                 </p>
 

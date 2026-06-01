@@ -72,7 +72,7 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="font-semibold text-foreground mb-1">Address</h3>
-                  <p className="text-muted-foreground text-sm">Sonigara Landmark, Kaspate Vasti, Wakad, Pune</p>
+                  <p className="text-muted-foreground text-sm">4th Floor, Sonigara Landmark, Kaspate Vasti, Wakad, Pune. </p>
                 </div>
                 <div className="bg-white rounded-2xl border border-border p-5 hover:border-primary/40 transition-colors">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">

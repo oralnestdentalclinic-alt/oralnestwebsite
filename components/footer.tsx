@@ -122,9 +122,8 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  Sonigara Landmark, Kaspate Vasti,
-                  <br />
-                  Wakad, Pune
+                  4th Floor, Sonigara Landmark,<br />
+                  Kaspate Vasti, Wakad, Pune
                 </span>
               </li>
             </ul>
@@ -136,7 +135,7 @@ export function Footer() {
                 WhatsApp
               </button>
               <button
-                onClick={() => window.open('https://maps.google.com/?q=Sonigara+Landmark+Kaspate+Vasti+Wakad+Pune', '_blank')}
+                onClick={() => window.open('https://www.google.com/maps/search/OralNest+Dental+Clinic+Wakad+Pune', '_blank')}
                 className="flex-1 px-3 py-2 rounded-full border border-primary text-primary text-sm font-medium hover:bg-primary hover:text-white transition-all"
               >
                 Directions
