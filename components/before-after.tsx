@@ -61,7 +61,7 @@ export function BeforeAfter() {
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <p className="text-lg text-foreground leading-relaxed pl-8">
-               Had my root canal treatment done at OralNest Dental Clinic with Dr. Ashutosh Dighe, and the entire experience was excellent. As a Project Manager at Tata Consultancy Services, I really value professionalism, clear communication, and efficiency, and Dr. Dighe delivered on all three. The procedure was smooth, comfortable, and explained in detail at every step. The clinic is modern, hygienic, and well-managed. Highly recommend Dr. Ashutosh Dighe and the team for quality dental care in Wakad.😊🦷
+                I visited OralNest Dental Clinic for teeth whitening and routine dental care, and the experience was very good. Dr. Ashutosh Dighe explained the process clearly, kept the treatment comfortable, and never rushed through anything. The clinic felt clean, ethical, and well-managed, and the results looked natural rather than overdone. Highly recommended for anyone looking for honest dental care in Wakad.
               </p>
             </div>
 
@@ -77,7 +77,8 @@ export function BeforeAfter() {
               </div>
               <div>
                 <p className="font-semibold text-foreground">
-Rani Dhonde</p>
+                  Nisha Patil
+                </p>
                 <p className="text-sm text-muted-foreground">Verified Patient</p>
                 <div className="flex gap-0.5 mt-1">
                   {[1, 2, 3, 4, 5].map((i) => (
