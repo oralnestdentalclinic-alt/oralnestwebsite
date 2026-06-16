@@ -14,21 +14,9 @@ export const metadata: Metadata = {
   keywords: ['Best Dentist in Wakad', 'Dental Clinic near Hinjawadi', 'Dentist near Pimpri-Chinchwad', 'Cosmetic Dentistry in Wakad', 'Root Canal Treatment Wakad'],
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
 }
 
