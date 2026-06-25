@@ -31,9 +31,15 @@ export const metadata: Metadata = {
     title: 'OralNest',
   },
   icons: {
-    icon: '/icon.png',
-    shortcut: '/icon.png',
-    apple: '/icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon-light-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon.png', sizes: '672x672', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
 }
 
@@ -57,6 +63,7 @@ const organizationJsonLd = {
   legalName: 'OralNest Dental Clinic',
   url: `${siteUrl}/`,
   logo: `${siteUrl}/icon.png`,
+  image: `${siteUrl}/icon.png`,
 }
 
 export default function RootLayout({
