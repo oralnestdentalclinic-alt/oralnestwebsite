@@ -26,20 +26,28 @@ export const metadata: Metadata = {
     siteName: 'OralNest',
     title: 'OralNest Dental Clinic',
     description: 'Best Dentist in Wakad, Dental Clinic near Hinjawadi. Expert Root Canal Treatment, Cosmetic Dentistry & Dental Implants in Pimpri-Chinchwad.',
+    images: [
+      {
+        url: '/icon.png',
+        width: 672,
+        height: 672,
+        alt: 'OralNest Dental Clinic logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'OralNest Dental Clinic',
+    description: 'Best Dentist in Wakad, Dental Clinic near Hinjawadi. Expert Root Canal Treatment, Cosmetic Dentistry & Dental Implants in Pimpri-Chinchwad.',
+    images: ['/icon.png'],
   },
   appleWebApp: {
     title: 'OralNest',
   },
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon-light-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/icon.png', sizes: '672x672', type: 'image/png' },
-    ],
-    shortcut: '/favicon.ico',
-    apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
+    icon: [{ url: '/icon.png', type: 'image/png' }],
+    shortcut: '/icon.png',
+    apple: [{ url: '/icon.png', type: 'image/png' }],
   },
 }
 
