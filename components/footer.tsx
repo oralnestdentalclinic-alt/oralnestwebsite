@@ -1,5 +1,5 @@
 "use client";
-import { Phone, Mail, MapPin, ArrowUp } from "lucide-react"
+import { Phone, Mail, MapPin, ArrowUp, Clock } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -124,6 +124,13 @@ export function Footer() {
                 <span className="text-sm text-muted-foreground">
                   4th Floor, Sonigara Landmark,<br />
                   Kaspate Vasti, Wakad, Pune
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Clock className="w-4 h-4 text-primary mt-0.5" />
+                <span className="text-sm text-muted-foreground">
+                  Open Every Day<br />
+                  9:00 AM - 9:00 PM
                 </span>
               </li>
             </ul>

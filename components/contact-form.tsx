@@ -5,19 +5,9 @@ import { Send, User, Phone, Mail, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { allTreatments } from "@/lib/treatments-data"
 
-const problemTypes = [
-  "General Checkup",
-  "Tooth Pain",
-  "Dental Implants",
-  "Root Canal",
-  "Teeth Whitening",
-  "Orthodontics",
-  "Cosmetic Dentistry",
-  "TMJ Pain",
-  "Oral Surgery",
-  "Other",
-]
+const problemTypes = [...allTreatments.map((treatment) => treatment.title), "Other"]
 
 interface ContactFormProps {
   variant?: "full" | "compact"
