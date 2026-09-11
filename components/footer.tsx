@@ -129,8 +129,8 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <Clock className="w-4 h-4 text-primary mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  Open Every Day<br />
-                  9:00 AM - 9:00 PM
+                  Mon - Sat: 10:00 AM - 10:00 PM<br />
+                  Sunday: 10:00 AM - 1:00 PM
                 </span>
               </li>
             </ul>

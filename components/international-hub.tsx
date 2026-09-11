@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Globe, Award, Shield, Clock, Plane, Heart, CheckCircle, Sparkles, DollarSign, MapPin, Quote } from "lucide-react"
+import { Globe, Award, Shield, Clock, Plane, Heart, CheckCircle, Sparkles, DollarSign, MapPin } from "lucide-react"
 import { ContactForm } from "@/components/contact-form"
 
 const benefits = [
@@ -66,24 +66,6 @@ const discreteJourney = [
   "Dedicated patient coordinator for seamless communication",
   "Luxury recovery suites for post-procedure comfort",
   "Secure handling of all medical records and documentation"
-]
-
-const testimonials = [
-  {
-    name: "Sarah M.",
-    location: "UK",
-    quote: "Exceptional clinical precision. The cost of my implants was significantly lower than in London, but the luxury and care at OralNest far exceeded my expectations."
-  },
-  {
-    name: "David H.",
-    location: "Australia",
-    quote: "A seamless experience from the first virtual consult. Dr. Dighe's team handled my full-mouth rehabilitation with world-class technology and absolute professionalism."
-  },
-  {
-    name: "James L.",
-    location: "USA",
-    quote: "I chose OralNest for their transparency and high-end environment. A truly elite dental experience in the heart of Pune."
-  }
 ]
 
 export function InternationalHub() {
@@ -325,47 +307,6 @@ export function InternationalHub() {
                 ))}
               </div>
             </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Global Patient Stories - Testimonials */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="font-serif text-3xl md:text-4xl text-[#1A1A1A] mb-4">
-              Global Patient Stories
-            </h2>
-            <p className="text-gray-600">Experiences from our international patients</p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={testimonial.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm"
-              >
-                <Quote className="w-8 h-8 text-[#3EC7BA] mb-4" strokeWidth={1.5} />
-                <p className="text-gray-700 leading-relaxed mb-6 italic">
-                  &ldquo;{testimonial.quote}&rdquo;
-                </p>
-                <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1A1A1A]">{testimonial.name}</span>
-                  <span className="text-gray-400">|</span>
-                  <span className="text-[#3EC7BA]">{testimonial.location}</span>
-                </div>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>
