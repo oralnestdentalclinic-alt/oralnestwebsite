@@ -110,7 +110,7 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-primary mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  9545705876
+                  8048033422
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -129,8 +129,9 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <Clock className="w-4 h-4 text-primary mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  Mon - Sat: 10:00 AM - 10:00 PM<br />
-                  Sunday: 10:00 AM - 1:00 PM
+                  MON–SAT: 4:30 PM–9:30 PM<br />
+                  SUN: 10 AM–1 PM<br />
+                  Morning: By prior appointment only
                 </span>
               </li>
             </ul>

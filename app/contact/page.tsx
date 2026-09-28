@@ -58,7 +58,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                  <p className="text-muted-foreground">+91 9545705876</p>
+                  <p className="text-muted-foreground">8048033422</p>
                 </div>
                 <div className="bg-white rounded-2xl border border-border p-5 hover:border-primary/40 transition-colors">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
@@ -80,8 +80,9 @@ export default function ContactPage() {
                   </div>
                   <h3 className="font-semibold text-foreground mb-1">Hours</h3>
                   <div className="text-muted-foreground text-sm space-y-1">
-                    <p>Mon - Sat: 10:00 AM - 10:00 PM</p>
-                    <p>Sunday: 10:00 AM - 1:00 PM</p>
+                    <p>MON–SAT: 4:30 PM–9:30 PM</p>
+                    <p>SUN: 10:00 AM–1:00 PM</p>
+                    <p>Morning: By prior appointment only</p>
                   </div>
                 </div>
               </div>
